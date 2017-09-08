@@ -1,0 +1,28 @@
+{
+  "name": "news_scraper",
+  "version": "1.0.0",
+  "description": "An App that will allow users to view and leave comments on the latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manderson55/News_Scraper.git"
+  },
+  "author": "MZA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manderson55/News_Scraper/issues"
+  },
+  "homepage": "https://github.com/Manderson55/News_Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.10",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
+}
