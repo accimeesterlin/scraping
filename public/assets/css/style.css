@@ -1,0 +1,70 @@
+
+body { 
+	background-color: lightgray;
+}
+
+h1 {
+	font-size: 55px;
+	color: white;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+#saveArticle {
+	float: right; 
+	display: inline-block;
+	padding-right: 10px;
+
+}
+
+
+.jumbotron {
+	background: url(../images/newspapers.jpeg) no-repeat center top;
+	margin-top: 60px;
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+    background-size: cover;
+    color:white;
+}
+
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+}
+
+#articles {
+	display: inline-block;
+	overflow: auto;
+	width: 100%;
+
+	}
+
+#notes {
+	float: right;
+	width: 30%;
+}
+
+textarea, input {
+	display: block;
+	width: 100%;
+	background-color: #FCF5C7;
+}
+
+input {
+	height: 36px;
+	font-size: 24px;
+}
+
+textarea {
+	height: 200px;
+	font-size: 18px;
+}
