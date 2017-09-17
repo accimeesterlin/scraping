@@ -7,19 +7,19 @@ const Schema = mongoose.Schema;
 const ArticleSchema = new Schema({
   // title is a required string
   title: {
-    type: String,
-    required: true
+    type: String
+    // required: true
   },
   // link is a required string
   link: {
+    type: String
+    // required: true
+  },
+  // // summary is a required string
+  summary: {
     type: String,
     required: true
   },
-  // // summary is a required string
-  // summary: {
-  //   type: String,
-  //   required: true
-  // },
   // This only saves one note's ObjectId, ref refers to the Note model
   note: {
     type: Schema.Types.ObjectId,

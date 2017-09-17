@@ -3,13 +3,16 @@ $(document).ready(function () {
 // hide articles when starting app
 $("#articles").hide();
 // Grab the articles as a json
-$.getJSON("/articles", function(data) {
+$.ajax({
+  url:"/articles",
+  method:"GET"
+})
+.then(function (data) {
   // For each one
   for  (i = 0; i < data.length; i++) {
     // Display the apropos information on the page
     $("#articleTitle").append("<h3><a href=" + data[i]._link + ">" + data[i].title + "</h3><button id='saveArticle' type='button' class='btn btn-warning navbar-btn btn-lg'>Save</button>");
   }
-  console.log()
 });
 
 
